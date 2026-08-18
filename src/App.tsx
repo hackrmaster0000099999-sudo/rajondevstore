@@ -12,11 +12,15 @@ import { BookmarksModal } from './components/BookmarksModal';
 import { DownloadsDrawer } from './components/DownloadsDrawer';
 import { ToastNotification } from './components/ToastNotification';
 import { Footer } from './components/Footer';
+import { AdBlockDetector } from './components/AdBlockDetector';
 
 export function App() {
   return (
     <StoreProvider>
-      <div className="min-h-screen flex flex-col bg-[#F8FAFC] text-slate-900 selection:bg-indigo-500 selection:text-white">
+      <div className="min-h-screen flex flex-col bg-[#F8FAFC] text-slate-900 selection:bg-indigo-500 selection:text-white relative">
+        {/* AdBlocker Hard Lock Component */}
+        <AdBlockDetector />
+
         {/* Sticky Header Navigation */}
         <Navbar />
 
