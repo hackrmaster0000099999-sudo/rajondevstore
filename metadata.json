@@ -1,0 +1,6 @@
+{
+  "name": "Rajon Dev Store",
+  "description": "Rajon Dev Store - Official applications, developer tools, AI prompts, documents, and verified source code repository.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
